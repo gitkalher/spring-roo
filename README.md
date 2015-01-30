@@ -3,7 +3,8 @@ springroo
 
 	A Simple Spring Roo project.
 	
-	It uses in memory database for saving records so no data will be available after re-deployment.
+	It uses in memory database for saving records 
+	so no data will be available after re-deployment.
 	   
 	 
 
