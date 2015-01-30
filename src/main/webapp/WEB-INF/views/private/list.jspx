@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springroo_model_Employee" items="${employees}" z="QsCnv2NQjOw48mGWsduNVdX0JX4=">
+        <table:table data="${employees}" id="l_com_springroo_model_Employee" path="/private" typeIdFieldName="id_" z="bRuzPs0lN+jkt2mHgveIIXyU2CI=">
+            <table:column id="c_com_springroo_model_Employee_id" property="id" z="oXJ1a/oVCmt0EQlsWp78VY7QsIk="/>
+            <table:column id="c_com_springroo_model_Employee_firstName" property="firstName" z="GxZEN7wagwdyffIEmVcv4aH7XQc="/>
+            <table:column id="c_com_springroo_model_Employee_middleName" property="middleName" z="rUUpRQwm6v9G8giVf31gKv/T2CQ="/>
+            <table:column id="c_com_springroo_model_Employee_lastName" property="lastName" z="7CnAgy4klkP6a/ZOrNaSfK9kUJA="/>
+            <table:column id="c_com_springroo_model_Employee_gender" property="gender" z="+rfLqHENwtz0Ngp9X6MH/ya5W50="/>
+            <table:column calendar="true" dateTimePattern="${employee_dateofbirth_date_format}" id="c_com_springroo_model_Employee_dateOfBirth" property="dateOfBirth" z="TJsvri0B4YQ8ExXuvMGAp2PT/y4="/>
+        </table:table>
+    </page:list>
+</div>

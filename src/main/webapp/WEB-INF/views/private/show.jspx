@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springroo_model_Employee" object="${employee}" path="/private" z="bzWwcrTGYOfAWpMX4VEDr7ThlQ4=">
+        <field:display field="id" id="s_com_springroo_model_Employee_id" object="${employee}" z="Cd+zkoXnfgHJbYsqiovwmscD9yA="/>
+        <field:display field="firstName" id="s_com_springroo_model_Employee_firstName" object="${employee}" z="xbaHh5oofQCTuKn7oINFV8EzDoI="/>
+        <field:display field="middleName" id="s_com_springroo_model_Employee_middleName" object="${employee}" z="HpSq74YndzuNNfJoNjbNTdPShhg="/>
+        <field:display field="lastName" id="s_com_springroo_model_Employee_lastName" object="${employee}" z="lNN9VmoZPqJnCbx6F8Kj1KJ7rcI="/>
+        <field:display field="gender" id="s_com_springroo_model_Employee_gender" object="${employee}" z="rS0jJLiz6dJKN+2YcD9UWyvrtRM="/>
+        <field:display calendar="true" dateTimePattern="${employee_dateofbirth_date_format}" field="dateOfBirth" id="s_com_springroo_model_Employee_dateOfBirth" object="${employee}" z="xXDY2C4UfsNbzGrQ1T88pHUVfOE="/>
+    </page:show>
+</div>
